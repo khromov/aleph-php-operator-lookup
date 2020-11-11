@@ -82,7 +82,7 @@ export default function Page() {
                         {<ReactMarkdown>{operators[selectedItem].description}</ReactMarkdown>}
                     </div> : '' }
                 </div>
-                <div className="block m-2 mb-2 text-center h-10">
+                <div className="block m-2 mb-2 text-center">
                 Built with 💜 by <a className="text-purple-600" href="https://khromov.se" target="_blank">Stanislav Khromov</a> using <a className="text-purple-600" href="https://alephjs.org/" target="_blank">Aleph.js</a> | <a className="text-purple-600" href="/api/operators">API</a> | <a className="text-purple-600" href="https://github.com/khromov/aleph-php-operator-lookup" target="_blank">GitHub</a>
                 </div>
             </div>

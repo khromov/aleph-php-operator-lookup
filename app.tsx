@@ -8,6 +8,7 @@ export default function App({ Page, pageProps }: { Page: ComponentType<any>, pag
         <>
             <Head>
                 <title>Hello World - Aleph.js</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             </Head>
             <Import from="./style/index.less" />
             <link rel="stylesheet" href="" />
